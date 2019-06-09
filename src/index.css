@@ -67,13 +67,45 @@ code {
 }
 
 .leftbar {
-  width: 40%;
-  padding-left: 2rem;
-  padding-top: 2rem;
-  padding-right: 2rem;
-  border-right: 1px solid #1565c0;
+  width: 20%;
+  padding: 4rem 4rem 0 4rem;
+  border-right: 1px solid #bbb;
+  box-shadow: 10px 0 8px -8px #bbb;
+}
+.skill-heading {
+  font-size: 2rem;
+  color: #1565c0;
+}
+
+.skill-container {
+  margin-top: 1rem;
+}
+
+.skill-row {
+  display: flex;
+  margin: 0.25rem 0 0.25rem 0;
+}
+
+.skill-name {
+  width: 4rem;
+  color: #707070;
+}
+
+.progress-bar {
+  width: 15rem;
+  margin-top: 0.37rem;
+  height: 0.5rem !important;
+}
+
+.progress-bar > .MuiLinearProgress-barColorPrimary-15 {
+  background-color: #1565c0;
 }
 
 .content {
-  width: 60%;
+  width: 71%;
+  padding: 4rem 4rem 0 4rem;
+}
+
+.MuiPrivateTabIndicator-colorSecondary-48 {
+  background-color: #1565c0 !important;
 }
